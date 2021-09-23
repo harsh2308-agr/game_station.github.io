@@ -76,7 +76,7 @@ function checkIt() {
     }
 
     if (countOfFound == selectedWord.length) {
-        results.innerHTML = "Congratulations !!!";
+        results.innerHTML = "<h1>Congratulations !!!</h1>";
         return;
     }
 
