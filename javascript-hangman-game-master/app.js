@@ -57,6 +57,7 @@ function initialize() {
 
     for (var i = 0; i < alphabet.length; i++) {
         var btn = document.createElement("button");
+       btn.id='btn1'
         btn.innerHTML = alphabet[i];
         btn.onclick = checkIt;
         document.getElementById("buttons").appendChild(btn);
