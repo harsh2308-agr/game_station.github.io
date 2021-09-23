@@ -50,3 +50,22 @@ body{
 #reload{
    size: 40px;
 }
+#btn1:hover{
+    border-image-slice: fill;
+    padding-right: 25px;
+    background-color: yellow;
+    font-size: 50px;
+    transition: ease-in;
+    transition-duration: 0.005;
+}
+#btn1:hover span:after {
+    opacity: 1;
+    right: 0;
+    transition: ease-in;
+    transition-duration: 0.005;
+  }
+  
+.btn1:hover span {
+    padding-right: 25px;
+  }
+  
