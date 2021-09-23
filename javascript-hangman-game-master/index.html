@@ -3,20 +3,25 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>JavaScript Hangman Game</title>
+    <title>Hangman Game</title>
     <link rel="stylesheet" href="app.css" />
 </head>
 
 <body>
+
     <div class="heading" style="padding: 10px; margin: 10px;background-color: rgb(200, 231, 23);">
         <h1 style="text-align: center;font-weight: bold;">Hangman</h1>
     </div>
+    <marquee><h2 style="font-weight: bold; color:brown">Welcome to Hangman</h2></marquee><br>
+   
     <div id="wrapper">
-        <div id="status"><img src="images/s0.gif" alt="Current Status" id="current-status" /></div>
+        <div id="status"><img src="images/s0.gif" alt="Current Status" id="current-status" /></div></marquee>
         <div id="inputs"></div>
         <div id="buttons"></div>
-        <p id="results"></p>
-        <button onClick="reload()">Refresh Page</button>
+      <div id="results">
+      
+      </div>
+        <button onClick="reload()" style="border: 2px solid black; color:black; background-color: yellow; border-radius:2px; padding:5px">Refresh Page</button>
     </div>
     <script src="app.js"></script>
 </body>
