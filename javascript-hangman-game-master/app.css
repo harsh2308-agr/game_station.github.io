@@ -52,7 +52,7 @@ body{
 }
 #btn1:hover{
     border-image-slice: fill;
-    padding-right: 25px;
+    /*padding-right: 25px;*/
     background-color: yellow;
     /*font-size: 50px;*/
     transition: ease-in;
