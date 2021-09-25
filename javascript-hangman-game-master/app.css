@@ -54,7 +54,7 @@ body{
     border-image-slice: fill;
     padding-right: 25px;
     background-color: yellow;
-    font-size: 50px;
+    /*font-size: 50px;*/
     transition: ease-in;
     transition-duration: 0.005;
 }
