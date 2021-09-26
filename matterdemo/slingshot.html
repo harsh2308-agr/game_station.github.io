@@ -17,13 +17,13 @@
         element: document.body,
         engine:engine,
         options :{
-            width:1000,
+            width:1500,
             height:600,
             wireframes:false
         }
         });
        //parms: x,y,width,height,options
-        let ground = Matter.Bodies.rectangle(600,350,310,30,{ isStatic: true}); 
+        let ground = Matter.Bodies.rectangle(1200,350,310,30,{ isStatic: true}); 
         let mouse = Matter.Mouse.create(render.canvas);
         let mouseConstraint = Matter.MouseConstraint.create(engine, {
         mouse: mouse,
@@ -33,7 +33,7 @@
         });
         render.mouse = mouse;
         let platform = Matter.Bodies.rectangle(500, 1250, 300, 20, { isStatic: true });
-        let stack = Matter.Composites.stack(500, 70, 4, 4, 0, 0, function(x, y) {
+        let stack = Matter.Composites.stack(1050, 70, 4, 4, 0, 0, function(x, y) {
             return Matter.Bodies.polygon(x, y, 8, 30); 
         });
         let ball = Matter.Bodies.circle(200, 300,20);
